@@ -1,3 +1,30 @@
 // Place all the styles related to the static_pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.head-sec {
+  background-color: green;
+  height:50px;
+
+  nav {
+    float:right;
+    margin-right: 20px;
+    margin-top: 15px;
+
+    a {
+      margin: 10px;
+      color:white;
+      text-decoration: none;
+
+      &:hover {
+        color:red;
+      }
+    }
+  }
+}
+
+#logo {
+  float:left;
+  margin-top:15px;
+  margin-left: 20px;
+}
